@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://opshome.run/apps/subnetpro/sitemap.xml
