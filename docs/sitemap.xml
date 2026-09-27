@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://opshome.run/apps/subnetpro/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://opshome.run/apps/subnetpro/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://opshome.run/apps/subnetpro/zh-cn/" />
+  </url>
+  <url>
+    <loc>https://opshome.run/apps/subnetpro/zh-cn/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://opshome.run/apps/subnetpro/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://opshome.run/apps/subnetpro/zh-cn/" />
+  </url>
+</urlset>
