@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subnet CIDR Pro — IPv4 Calculator & VLSM Planner</title>
+  <meta name="description" content="Calculate IPv4 networks, subnet masks, wildcard masks and usable ranges, build VLSM plans, and use a complete CIDR reference offline on iPhone and iPad.">
+  <link rel="canonical" href="https://opshome.run/docs/subnetpro/">
+  <link rel="alternate" hreflang="en" href="https://opshome.run/docs/subnetpro/">
+  <link rel="alternate" hreflang="zh-CN" href="https://opshome.run/docs/subnetpro/zh-cn/">
+  <link rel="alternate" hreflang="x-default" href="https://opshome.run/docs/subnetpro/">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://opshome.run/docs/subnetpro/">
+  <meta property="og:title" content="Subnet CIDR Pro — IPv4 Calculator & VLSM Planner">
+  <meta property="og:description" content="Fast, private IPv4 subnet calculations and VLSM planning on iPhone and iPad.">
+  <meta property="og:image" content="https://opshome.run/docs/subnetpro/assets/images/app-logo.png">
+  <meta property="og:site_name" content="Subnet CIDR Pro">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@opshome_NOC">
+  <link rel="icon" sizes="32x32" type="image/png" href="/docs/subnetpro/assets/images/favicon-32.png">
+  <link rel="icon" sizes="16x16" type="image/png" href="/docs/subnetpro/assets/images/favicon-16.png">
+  <link rel="apple-touch-icon" href="/docs/subnetpro/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/docs/subnetpro/site.webmanifest">
+  <link rel="stylesheet" href="/docs/subnetpro/styles.css?v=20260927-1">
+  <link rel="stylesheet" href="/docs/subnetpro/assets/css/header-footer.css?v=20260927-1">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {"@type":"Organization","@id":"https://opshome.run/#organization","name":"OpsHome","url":"https://opshome.run/","logo":"https://opshome.run/brand-logo.png"},
+      {"@type":"SoftwareApplication","@id":"https://opshome.run/docs/subnetpro/#app","name":"Subnet CIDR Pro","applicationCategory":"UtilitiesApplication","operatingSystem":"iOS 16 or later, iPadOS 16 or later","url":"https://opshome.run/docs/subnetpro/","description":"An offline IPv4 subnet calculator, VLSM planner, mask converter and CIDR reference for iPhone and iPad.","featureList":["IPv4 and CIDR network calculations","Subnet and wildcard mask conversion","VLSM network planning","Complete prefix reference from /0 to /32","On-device processing"],"publisher":{"@id":"https://opshome.run/#organization"}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header"><div class="nav">
+    <a class="brand" href="/docs/subnetpro/" aria-label="Subnet CIDR Pro home"><img src="/docs/subnetpro/assets/images/app-logo.png" width="46" height="46" alt="Subnet CIDR Pro app icon"><span>Subnet CIDR Pro</span></a>
+    <button class="menu-button" type="button" aria-label="Menu" aria-expanded="false" data-menu-button>Menu</button>
+    <div class="nav-menu" data-nav-menu>
+      <nav class="nav-links" aria-label="Primary navigation"><a href="/docs/subnetpro/#features">Features</a><a href="/docs/subnetpro/#tools">Tools</a><a href="/docs/subnetpro/#workflow">Workflow</a><a href="/docs/subnetpro/privacy/">Privacy</a><a href="/docs/subnetpro/support/">Support</a></nav>
+      <div class="lang" aria-label="Language"><a class="active" href="/docs/subnetpro/" lang="en">EN</a><a href="/docs/subnetpro/zh-cn/" lang="zh-Hans">简</a></div>
+      <a class="nav-cta" href="#features">Explore the app</a>
+    </div>
+  </div></header>
+
+  <main>
+    <section class="hero"><div class="hero-layout">
+      <div class="hero-content">
+        <p class="eyebrow">IPv4 CALCULATOR · VLSM PLANNER</p>
+        <h1>Subnet math without the browser tabs.</h1>
+        <p class="hero-copy">Calculate address ranges, masks and host capacity, then build right-sized VLSM plans in one focused iPhone and iPad app. Every calculation stays on your device.</p>
+        <div class="hero-actions"><a class="primary-button" href="#features">Explore features</a><a class="secondary-button" href="#workflow">See the workflow</a></div>
+        <p class="hero-microcopy">Native for iPhone &amp; iPad · Works offline · No account required</p>
+        <div class="hero-trust" aria-label="Product highlights"><span>On-device calculations</span><span>No ads or analytics SDK</span><span>Built for iOS 16+</span></div>
+      </div>
+      <div class="app-demo" aria-label="Subnet CIDR Pro network calculation preview">
+        <div class="demo-top"><div class="demo-app"><img src="/docs/subnetpro/assets/images/app-logo.png" alt=""><span>Calculate</span></div><span class="demo-badge">IPv4</span></div>
+        <div class="demo-card"><span class="demo-label">Address and prefix</span><div class="demo-input"><span>192.168.1.100</span><span class="demo-prefix">/26</span></div></div>
+        <div class="demo-result"><span class="demo-label">Network address</span><strong>192.168.1.64/26</strong><div class="demo-range">Usable: 192.168.1.65 – 192.168.1.126</div>
+          <div class="demo-grid"><div><span>Subnet mask</span><code>255.255.255.192</code></div><div><span>Broadcast</span><code>192.168.1.127</code></div><div><span>Wildcard</span><code>0.0.0.63</code></div><div><span>Usable hosts</span><code>62</code></div></div>
+          <div class="demo-bits" aria-hidden="true"><span class="network">11000000.10101000.00000001.01</span><span class="host">100100</span></div>
+        </div>
+      </div>
+    </div></section>
+
+    <section class="metrics" aria-label="Subnet CIDR Pro capabilities"><div><strong>IPv4 + CIDR</strong><span>Network, broadcast, mask and usable range.</span></div><div><strong>VLSM</strong><span>Allocate the largest host requirement first.</span></div><div><strong>/0 through /32</strong><span>Correct handling across the full prefix range.</span></div><div><strong>100% offline</strong><span>No backend is needed for calculations.</span></div></section>
+
+    <section class="section" id="features"><div class="section-head"><p class="eyebrow">FEATURES</p><h2>The subnet answers you need, in one workspace.</h2><p>Move from an address to the values used in configuration, troubleshooting and documentation without rebuilding the same calculation across several tools.</p></div>
+      <div class="feature-grid">
+        <article><span class="feature-number">01</span><h3>Subnet calculator</h3><p>Enter an IPv4 address and prefix to see the canonical network, usable range, broadcast, mask, wildcard and host capacity.</p></article>
+        <article><span class="feature-number">02</span><h3>VLSM planner</h3><p>Describe the networks and host counts you need, then generate an allocation from the largest block to the smallest.</p></article>
+        <article><span class="feature-number">03</span><h3>Mask converter</h3><p>Convert subnet masks and Cisco-style wildcard masks, with the equivalent contiguous prefix when one exists.</p></article>
+        <article><span class="feature-number">04</span><h3>CIDR reference</h3><p>Search the complete /0–/32 reference for address totals, usable hosts, subnet masks and wildcard masks.</p></article>
+      </div>
+    </section>
+
+    <section class="section compare-section"><div class="section-head"><p class="eyebrow">ONE WORKFLOW</p><h2>Go from copied IP to usable network plan.</h2><p>Subnet CIDR Pro keeps quick calculations, repeatable planning and reference data together, with results ready to copy.</p></div>
+      <div class="compare-grid">
+        <article class="compare-card compare-card--old"><p class="compare-label">THE FRAGMENTED WAY</p><h3>Several calculators and manual notes.</h3><ul><li>Open a web calculator for every address</li><li>Look up masks in a separate reference table</li><li>Build VLSM allocations by hand</li><li>Reformat results before sharing them</li></ul></article>
+        <article class="compare-card compare-card--new"><p class="compare-label">SUBNET CIDR PRO</p><h3>Paste. Calculate. Plan. Copy.</h3><ul><li>Paste an address and adjust the prefix precisely</li><li>Review high-frequency values together</li><li>Generate a VLSM allocation on device</li><li>Copy individual values or the full summary</li></ul></article>
+      </div>
+    </section>
+
+    <section class="tool-band" id="tools"><div class="tool-band__inner"><div class="section-head"><p class="eyebrow">BUILT FOR NETWORK WORK</p><h2>Precise at the boundaries.</h2><p>Common prefixes are fast to select, binary network and host bits stay visible, and point-to-point or single-host networks are handled explicitly.</p></div>
+      <div class="tool-grid"><article><code>/31</code><h3>Point-to-point links</h3><p>Both addresses are counted as usable, without inventing a broadcast address.</p></article><article><code>/32</code><h3>Single-host routes</h3><p>Host routes stay readable as one-address networks with the correct capacity.</p></article><article><code>0.0.0.63</code><h3>Wildcard masks</h3><p>Move between subnet masks, wildcard masks and CIDR prefixes for routing and ACL work.</p></article></div>
+    </div></section>
+
+    <section class="privacy-band" id="privacy"><div class="section-head"><p class="eyebrow">PRIVACY</p><h2>Your network details stay on your device.</h2><p>Subnet CIDR Pro performs IPv4, mask, wildcard and VLSM calculations locally. The app does not need an account, backend service or analytics SDK.</p></div><div class="privacy-grid"><div><strong>Local processing</strong><span>Addresses and plans are calculated directly on your iPhone or iPad.</span></div><div><strong>No account</strong><span>There is no sign-in flow or cloud inventory to maintain.</span></div><div><strong>You control copying</strong><span>Results reach the clipboard only when you tap a copy action.</span></div></div></section>
+
+    <section class="split-section" id="workflow"><div><p class="eyebrow">WORKFLOW</p><h2>Calculate first. Plan when the job grows.</h2><p>Use the same app for a quick field check, a structured VLSM plan or a prefix lookup.</p></div><ol class="steps"><li><span>Paste an IPv4 address</span><p>Use CIDR notation or adjust the prefix with precise step controls and common-prefix shortcuts.</p></li><li><span>Read and copy the result</span><p>Review the network, usable range, masks, broadcast and address scope together.</p></li><li><span>Build a VLSM plan</span><p>Add named host requirements and allocate them inside a parent network.</p></li><li><span>Use the built-in reference</span><p>Search any prefix, mask or host count without leaving the app.</p></li></ol></section>
+
+    <section class="cta-band"><div><p class="eyebrow">SUPPORT</p><h2>Need help with a calculation?</h2><p>Send the app version, device model and a non-sensitive example that reproduces the issue.</p></div><a class="primary-button" href="/docs/subnetpro/support/">Open support</a></section>
+  </main>
+
+  <footer class="site-footer"><div class="site-footer__main">
+    <div class="site-footer__brand"><a class="site-footer__brandmark" href="/docs/subnetpro/"><img src="/docs/subnetpro/assets/images/app-logo.png" width="52" height="52" alt="Subnet CIDR Pro logo"><span>Subnet CIDR Pro</span></a><p class="site-footer__brandcopy">Offline IPv4 subnet calculation, VLSM planning and CIDR reference for iPhone and iPad.</p><a class="site-footer__contact" href="mailto:support@opshome.run">support@opshome.run</a></div>
+    <section class="site-footer__column" aria-labelledby="footer-products"><h2 id="footer-products">Products</h2><div class="site-footer__links"><a class="site-footer__link" href="https://app.opshome.run/"><span class="site-footer__product-icon"><img src="/docs/subnetpro/assets/images/opshome-logo.png" alt=""></span><span>OpsHome NOC</span></a><a class="site-footer__link" href="https://fgt.opshome.run/"><span class="site-footer__product-icon"><img src="/docs/subnetpro/assets/images/fgt-logo.webp" alt=""></span><span>FortiGate NOC Monitor</span></a><a class="site-footer__link" href="https://domain.opshome.run/"><span class="site-footer__product-icon"><img src="/docs/subnetpro/assets/images/domain-checker-logo.webp" alt=""></span><span>Domain Checker</span></a><a class="site-footer__link" href="https://ssl.opshome.run/"><span class="site-footer__product-icon"><img src="/docs/subnetpro/assets/images/ssl-monitor-logo.webp" alt=""></span><span>SSL Certificate Monitor</span></a><a class="site-footer__link" href="https://wifi.opshome.run/"><span class="site-footer__product-icon"><img src="/docs/subnetpro/assets/images/wifi-health-logo.webp" alt=""></span><span>WiFi Health Check</span></a></div></section>
+    <section class="site-footer__column" aria-labelledby="footer-resources"><h2 id="footer-resources">Resources</h2><div class="site-footer__links"><a class="site-footer__link" href="https://docs.opshome.run/">Docs</a><a class="site-footer__link" href="https://docs.opshome.run/release-notes.html">Release Log</a><a class="site-footer__link" href="https://app.opshome.run/security.html">Security</a></div></section>
+    <section class="site-footer__column" aria-labelledby="footer-support"><h2 id="footer-support">Product</h2><div class="site-footer__links"><a class="site-footer__link" href="/docs/subnetpro/#features">Features</a><a class="site-footer__link" href="/docs/subnetpro/privacy/">Privacy</a><a class="site-footer__link" href="/docs/subnetpro/support/">Support</a></div></section>
+  </div><div class="site-footer__bottom-wrap"><div class="site-footer__bottom"><p>© 2026 OpsHome™. All rights reserved.</p><div class="site-footer__legal"><a href="/docs/subnetpro/terms/">Terms</a><a href="/docs/subnetpro/privacy/">Privacy</a></div></div></div></footer>
+  <script defer src="/docs/subnetpro/assets/js/main.js?v=20260927-1"></script>
+</body>
+</html>
