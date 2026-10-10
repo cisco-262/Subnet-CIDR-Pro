@@ -249,3 +249,43 @@ button, input { font: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+
+
+/* Release 2026-10-10: storefront conversion + use cases + FAQ */
+:where(.section, .download-band, .faq-section, .usecases-section) { scroll-margin-top: 94px; }
+.hero-actions .primary-button { gap: 8px; }
+.hero-actions .primary-button span { font-size: 1rem; }
+.demo-disclaimer { margin: 12px 0 0; color: #7e91a9; text-align: right; font-size: .7rem; }
+.usecases-section { padding-top: 30px; }
+.usecase-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 17px; margin-top: 40px; }
+.usecase-grid article { display: flex; flex-direction: column; padding: 30px; background: #f8fbff; border: 1px solid #dae7f5; border-radius: 20px; }
+.usecase-icon { display: inline-grid; align-self: flex-start; place-items: center; width: 42px; height: 42px; color: #1475df; font-weight: 850; border-radius: 12px; background: #e5f1ff; }
+.usecase-grid h3 { font-size: 1.22rem; margin: 20px 0 8px; }
+.usecase-grid p { color: var(--muted); margin: 0; }
+.usecase-grid .usecase-example { margin-top: auto; padding-top: 19px; color: #2160a2; font-size: .88rem; font-weight: 700; }
+.faq-section { padding-top: 36px; }
+.faq-list { max-width: 910px; margin-top: 32px; border-top: 1px solid var(--line); }
+.faq-list details { border-bottom: 1px solid var(--line); padding: 0 6px; }
+.faq-list summary { list-style: none; position: relative; padding: 20px 40px 20px 0; font-weight: 750; font-size: 1.03rem; cursor: pointer; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: '+'; position: absolute; right: 6px; top: 17px; font-size: 1.4rem; line-height: 1; color: var(--blue); }
+.faq-list details[open] summary::after { content: '−'; }
+.faq-list details p { max-width: 760px; margin: 0 0 22px; color: var(--muted); }
+.faq-list summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.download-band { margin: 0 0 95px; padding: 0 20px; }
+.download-band__inner { width: min(1180px,100%); margin: auto; padding: clamp(35px,6vw,62px); display: flex; align-items: center; justify-content: space-between; gap: 44px; border-radius: 27px; background: linear-gradient(125deg,#0b2039,#0b315b 66%,#0a3d51); box-shadow: 0 28px 60px rgba(5,28,54,.12); }
+.download-copy { max-width: 700px; }
+.download-band .eyebrow { color: #6fb5ff; }
+.download-band h2 { color: #fff; margin: 0; font-size: clamp(2rem,4.2vw,3.5rem); line-height: 1.1; letter-spacing: -.045em; }
+.download-band .download-copy > p:not(.eyebrow) { color: #bbd0e6; font-size: 1.04rem; }
+.download-band .download-note { margin-bottom: 0; font-size: .83rem !important; color: #91aec9 !important; }
+.download-button { gap: 10px; margin-top: 14px; }
+.download-qr { display: flex; flex-shrink: 0; align-items: center; flex-direction: column; gap: 10px; padding: 12px; background: #fff; text-decoration: none; border-radius: 17px; box-shadow: 0 14px 40px rgba(0,0,0,.15); }
+.download-qr img { width: 176px; height: 176px; image-rendering: pixelated; }
+.download-qr span { font-size: .72rem; color: #475569; font-weight: 750; }
+.site-footer__link--store { color: #83c0ff !important; font-weight: 800 !important; }
+.site-footer__link--store:hover { color: white !important; }
+@media (max-width: 900px) { .usecase-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 680px) { .usecase-grid { grid-template-columns: 1fr; } .download-band { padding: 0; margin-bottom: 60px; } .download-band__inner { flex-direction: column; align-items: stretch; border-radius: 0; padding: 55px 24px; } .download-qr { align-self: flex-start; } .download-button { width: 100%; } .faq-section { padding-top: 14px; } }
+
+.primary-button:focus-visible, .secondary-button:focus-visible, .download-qr:focus-visible { outline: 3px solid #6bb5ff; outline-offset: 3px; }
